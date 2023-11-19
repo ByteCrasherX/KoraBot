@@ -21,11 +21,11 @@ from tg_bot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}
-I am a group management bot.	
-Build by weebs for weebs, I specialize in managing groups.	
-You can find my list of available commands with :	
-👉 /help.
+𝖧𝖾𝗅𝗅𝗈 {}, 💌
+𝖬𝗒𝗌𝖾𝗅𝖿 {}, 𝖠𝗇 𝖠𝖽𝗏𝖺𝗇𝖼𝖾 𝗀𝗋𝗈𝗎𝗉 𝗆𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖻𝗈𝗍.
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+◎ 𝖧𝗂𝗍 𝗍𝗁𝖾 𝗁𝖾𝗅𝗉 𝖻𝗎𝗍𝗍𝗈𝗇 𝖻𝖾𝗅𝗈𝗐 𝗍𝗈 𝗄𝗇𝗈𝗐 𝗆𝗈𝗋𝖾.
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
 
@@ -35,13 +35,7 @@ BOT_IMG = "https://telegra.ph/file/2fbf54ecf569496431507.jpg"
 
 
 HELP_STRINGS = """
-*Helpful Commands :* [.](https://telegra.ph/file/2fbf54ecf569496431507.jpg)
-✧ /start: Starts me! You've probably already used this.
-✧ /help: Sends this message; I'll tell you more about myself!
-✧ /settings: 
-   ∘ in PM: will send you your settings for all supported modules.
-   ∘ in a Group: will redirect you to pm, with all that chat's settings.
-
+ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ....
 """
 
 
@@ -150,7 +144,7 @@ def start(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add kora to your group",
+                            text="Add me to your group",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                     [
